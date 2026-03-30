@@ -42,3 +42,25 @@
   object-fit: cover;          /* MAGIC */
   object-position: center;
 }
+
+/* Hide by default */
+.dl-as {
+  display: none;
+}
+
+/* Show only on small screens */
+@media (max-width: 463px) {
+.dl-as {
+  display: grid;
+  height: 1px;
+  width: 91%;
+  margin: 15px auto;
+  background: repeating-linear-gradient(
+    to right,
+    #000,
+    #000 6px,
+    transparent 6px,
+    transparent 12px
+  );
+}
+}
