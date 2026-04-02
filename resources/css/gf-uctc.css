@@ -9,7 +9,7 @@
 
 .form-container iframe {
   width: 100%;
-  min-height: 800px; /* adjust as needed */
+  min-height: 800px;
   border: none;
 }
 
@@ -17,7 +17,7 @@
   .form-container iframe {
     transform: scale(0.9);
     transform-origin: top left;
-    width: 111%; /* compensates for scaling */
+    width: 111%; 
   }
 }
 
