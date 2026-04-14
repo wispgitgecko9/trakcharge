@@ -1,0 +1,8 @@
+/* Trakcharge QR Code Section Styles */
+/* [Quebec Romeo] */
+
+.qri {
+  max-width: 95%;
+  height: auto;
+  max-height: 500px;
+}

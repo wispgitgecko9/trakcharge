@@ -22,10 +22,10 @@ h1 img {
             height: 30px;
             background-image: repeating-linear-gradient(
                 45deg,
-                black 0,
-                black 15px,
-                #face23 15px,
-                #face23 30px
+                var(--black, #000) 0,
+                var(--black, #000) 15px,
+                var(--yellow) 15px,
+                var(--yellow) 30px
             );
         }
 
