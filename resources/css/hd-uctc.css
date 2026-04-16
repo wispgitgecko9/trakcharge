@@ -46,7 +46,7 @@ h1 img {
       margin:0 0 22px;
       font-size: clamp(18px, 2.6vw, 28px);
       color:var(--text);
-      font-weight:300;
+      font-weight:light;
     }
     .header .brand{
       font-family: "Anton", Impact, sans-serif;
